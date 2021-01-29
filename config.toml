@@ -1,0 +1,4 @@
+baseURL = "http://Fe3O4-Git.github.io/"
+languageCode = "en-us"
+title = "Fe3O4's Blog"
+theme = "PaperMod"
