@@ -9,8 +9,15 @@ Content = "Committing to a simpler lifestyle..."
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/Fe3O4-Git"
+url = "https://github.com/Fe3O4-Git/"
 
 [[params.socialIcons]]
 name = "email"
 url = "mailto:Fe3O4_Live@Outlook.com"
+
+[[menu.main]]
+    identifier = "thinking"
+    name = "Thinking"
+    title = "Some of deep thinkings"
+    url = "/thinking/"
+    weight = -110
