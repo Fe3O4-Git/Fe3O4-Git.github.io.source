@@ -16,8 +16,8 @@ name = "email"
 url = "mailto:Fe3O4_Live@Outlook.com"
 
 [[menu.main]]
-    identifier = "thinking"
-    name = "Thinking"
+    identifier = "thinkings"
+    name = "Thinkings"
     title = "Some of deep thinkings"
-    url = "/thinking/"
+    url = "/thinkings/"
     weight = -110
