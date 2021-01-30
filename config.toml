@@ -2,3 +2,15 @@ baseURL = "http://Fe3O4-Git.github.io/"
 languageCode = "en-us"
 title = "Fe3O4's Blog"
 theme = "PaperMod"
+
+[params.homeInfoParams]
+Title = "Hi, there!"
+Content = "Committing to a simpler lifestyle..."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Fe3O4-Git"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:Fe3O4_Live@Outlook.com"
