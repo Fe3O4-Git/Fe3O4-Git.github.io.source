@@ -1,18 +1,10 @@
 #!/bin/fish
-
-if $argv = ""
-	echo Git requires some necessary description.
-end
-
+git add .
+git commit -m $argv
+git push origin master
 hugo
-
-for type in source public
-	git add .
-	git commit -m "$argv"
-	git push origin master
-	if type = "source"
-		cd public
-	else
-		cd ..
-	end
-end
+cd public
+git add .
+git commit -m $argv
+git push origin master
+cd ..

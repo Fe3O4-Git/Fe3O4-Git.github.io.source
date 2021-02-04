@@ -15,9 +15,21 @@ url = "https://github.com/Fe3O4-Git/"
 name = "email"
 url = "mailto:Fe3O4_Live@Outlook.com"
 
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+
+
 [[menu.main]]
-    identifier = "thinkings"
-    name = "Thinkings"
-    title = "Some of deep thinkings"
-    url = "/thinkings/"
-    weight = -110
+identifier = "it"
+name = "IT"
+title = "Infomation technology related"
+url = "/it/"
+weight = -110
+
+[[menu.main]]
+identifier = "thinkings"
+name = "Thinkings"
+title = "Some of deep thinkings"
+url = "/thinkings/"
+weight = -110
